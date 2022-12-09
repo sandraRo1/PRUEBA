@@ -1,0 +1,35 @@
+body{
+    font-family: 'Josefin Sans', Arial, Helvetica, sans-serif;
+    background-color: rgb(138, 233, 245);
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+.batalla1{
+    display: flex;
+    align-items: center;
+    border: 3px solid rgb(81, 0, 128);
+    justify-content: center;
+    padding: 32px;
+    border-radius: 20px;
+}
+.text-mensajes{
+    font-size: 40px;
+}
+.batalla2{
+    margin: 25px;
+}
+.img-batalla{
+    border-radius: 50%;
+}
+
+.ataques:hover{
+    border: 2px solid rgb(255, 251, 0);
+    cursor: pointer;
+    margin: 18px;
+}
+.ataques{
+    margin: 20px;
+    width: 200px;
+    border-radius: 50%;
+}
